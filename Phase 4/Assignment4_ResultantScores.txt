@@ -1,0 +1,10 @@
+Average_F1_User_DT  0.927453172871062
+Average_F1_User_NN  0.908953257553748
+Average_F1_User_SVM 0.906247090999679 
+Average_Precision_User_DT 0.900000000000000
+Average_Precision_User_NN 0.896608359930718
+Average_Precision_User_SVM 0.900000000000000
+Average_Recall_User_DT 0.956662602184637
+Average_Recall_User_NN 0.923615504515750
+Average_Recall_User_SVM 0.912608451832271
+
