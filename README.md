@@ -30,7 +30,7 @@ E. Support Vector Machines, Neural Networks and Decision Trees were used for tra
 
 F. The test dataset is then used to obtain the accuracy metrics Precision, Recall and F1 score for each user.
 
-5 Project Phase 4
+5) Project Phase 4
 The fourth phase of the project involves the following steps,
 
 A. A new column is added to the new feature matrix obtained from phase 2 for all users not used in training and testing datasets in order to create labels used for binary classification.
