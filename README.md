@@ -1,21 +1,21 @@
 # Recognition-of-American-Sign-Language-ASL-through-human-gestures
 To Develop a system which can understand and recognize the American Sign Language(ASL) through human gestures. 
 
-1 Introduction
+1) Introduction
 
 In this project, we attempt to develop a system which can understand and recognize the American Sign Language(ASL) through human gestures. A wristband sensor worn on both hands is used to collect data related to acceleration, gyroscope, orientation, electromyography and kinect data and is mined to understand what gesture the person has made. This could help a person who does not understand ASL to be able to communicate with a deaf/dumb person who does communicate in ASL. We use MATLAB to develop this software.
 
 
-2 Project Phase 1
+2) Project Phase 1
 
 In the first phase, we went to the IMPACT lab at Brickyard, Tempe in order to collect data. One person wore wrist bands on both arms and made the gestures, “ABOUT”, “AND”, “CAN”, “COP” ,“DEAF”,“DECIDE”, “FATHER”, “FIND”, “GO OUT” and “HEARING” about 20 times each. The data collected from the sensors is stored in the form of CSV files. The time series data is sampled every 3 seconds. The frequency of sensors was found to be 15Hz. The data headers of the collected data are Accelerometer, Electromyogram, Gyroscope and Orientation.
 
 
-3 Project Phase 2
+3) Project Phase 2
 
 The second phase of the project involves feature extraction and feature selection aspects of Data Mining. PCA was applied to the feature matrix to obtain the new feature matrix . From the feature matrix 7 features were extracted and multiplied with the feature matrix obtain a projection matrix . This projection matrix is used as a new feature matrix.
 
-4 Project Phase 3
+4) Project Phase 3
 The third phase of the project involves the following steps,
 
 A. A new column is added to the new feature matrix obtained from phase 2 for each user in order to create labels used for binary classification.
